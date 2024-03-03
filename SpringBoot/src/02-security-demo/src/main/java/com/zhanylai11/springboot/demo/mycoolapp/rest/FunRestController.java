@@ -14,6 +14,6 @@ public class FunRestController {
 
     @GetMapping("/workout")
     public String workoutDaily() {
-        return ("Do workout daily for your body");
+        return ("Do workout daily");
     }
 }
